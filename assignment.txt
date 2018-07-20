@@ -1,0 +1,107 @@
+﻿
+Assignment: 
+
+Create Bean for currency converter -
+
+  convert(Rs) = $ 
+
+To use conversion factor- use property file and provide property for conversion factor
+
+Create a Rest Service that will take Rs as input and convert it to $ and show to the user the $ value. You will have inject currency converter bean to RestController.
+
+
+Assignment: 
+
+Create Bean for currency converter -
+
+  convert(Rs) = $ 
+
+To use conversion factor- use property file and provide property for conversion factor
+
+Create a Rest Service that will take Rs as input and convert it to $ and show to the user the $ value. You will have inject currency converter bean to RestController.
+
+Create a separate project for accessing this service using restTemplate and test you service
+
+===========================================
+
+Implement CRUD application for Employee Management. 
+
+===========================================
+
+Create Restful services for -
+
+1) Adding employee ( /api/addEmp)   - post method
+2) Get Employee    (/api/getEmp/{empid}) - Get method
+3) Get All employees(/api/getEmps)- method- Get
+4) Delecte employee(/api/delEmp/{empid} - method -Get
+
+
+Develop Rest client to test it using restTemplate
+
+==================================================
+
+Setup Eureka Server and register currency conversion service 
+with Server and Write consumer microservice to access that using registry
+
+=================================================
+
+Modify currency conversion service to read conversion factor from centralized configured server using spring cloud config.  
+
+================================================
+
+
+
+
+
+
+
+Create a separate project for accessing this service using restTemplate and test you service
+
+===========================================
+
+Implement CRUD application for Employee Management. 
+
+===========================================
+
+Create Restful services for -
+
+1) Adding employee ( /api/addEmp)   - post method
+2) Get Employee    (/api/getEmp/{empid}) - Get method
+3) Get All employees(/api/getEmps)- method- Get
+4) Delecte employee(/api/delEmp/{empid} - method -Get
+
+
+Develop Rest client to test it using restTemplate
+
+================================================== 
+
+----------------------------------------------------
+
+Implement CRUD application for Employee Management. 
+
+===========================================
+
+Create Restful services for -
+
+1) Adding employee ( /api/addEmp)   - post method
+2) Get Employee    (/api/getEmp/{empid}) - Get method
+3) Get All employees(/api/getEmps)- method- Get
+4) Delecte employee(/api/delEmp/{empid} - method -Get
+
+
+Develop Rest client to test it using restTemplate
+
+==================================================
+
+Setup Eureka Server and register currency conversion service 
+with Server and Write consumer microservice to access that using registry
+
+=================================================
+Create multiple instance of currency converter service and use loadbalance for these instatence using Ribbon
+=============================================
+Impletment circuit breaker for your currency converter service in client using hystrix
+
+===========================================
+Modify currency conversion service to read conversion factor from centralized configured server using spring cloud config.  
+
+================================================ 
